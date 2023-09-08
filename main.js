@@ -382,6 +382,6 @@
       document.hidden || a.reset()
   }
   )),
-  console.log("c", "font: 26px sans-serif; font-weight:bold; color: #77DD77; -webkit-text-stroke:0.01px black;")
+  console.log("%ctwitter @nb_div", "font: 26px sans-serif; font-weight:bold; color: #77DD77; -webkit-text-stroke:0.01px black;")
 }
 )();
