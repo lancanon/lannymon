@@ -64,6 +64,7 @@
 
 .details {
   background-image: url("../../public/images/house.png");
+  background-size: cover;
   z-index: 4;
   width: 100%;
   height: 100%;
@@ -72,7 +73,7 @@
 
 .platform {
   background-image: url("../../public/images/setting/platform.png");
-  height: 57px;
+  height: 64px;
   position: absolute;
   z-index: 5;
   bottom: 10px;
