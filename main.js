@@ -21,7 +21,7 @@
       player: {
           ign: "lan",
           level: 24,
-          job: "sw engineer",
+          job: "software engineer",
           fame: "-",
           guild: "-",
           alliance: "-",
