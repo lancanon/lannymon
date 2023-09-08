@@ -50,7 +50,7 @@
           requiredLevel: 0
       }, {
           url: "https://www.youtube.com/channel/UCsEzDbi0RHzdQgAfbNyxhLA",
-          title: "Twitter",
+          title: "Youtube",
           image: "./public/images/ui/icons/links/youtube.png",
           requiredLevel: 0,
           custom: "29px"
