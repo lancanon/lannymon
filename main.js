@@ -22,7 +22,7 @@
           ign: "lan",
           level: 24,
           job: "software engineer",
-          fame: "1",
+          fame: "72",
           guild: "-",
           alliance: "-",
           married: !0
