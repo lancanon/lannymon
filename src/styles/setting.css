@@ -71,7 +71,7 @@
 }
 
 .platform {
-  background-image: url("../../public/images/setting/mayaplatform.png");
+  background-image: url("../../public/images/setting/platform.png");
   height: 57px;
   position: absolute;
   z-index: 5;
