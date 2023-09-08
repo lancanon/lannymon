@@ -87,11 +87,11 @@ body {
 
 #pet-sleep {
   background-image: url("../../public/images/animations/petsleep.gif");
-  width: 45px;
-  height: 42px;
+  width: 63px;
+  height: 40px;
   z-index: 5;
   position: absolute;
-  bottom: 77px;
+  bottom: 79px;
   left: calc(50vw + 125px);
 }
 
@@ -101,7 +101,8 @@ body {
   display: flex;
   justify-content: center;
   align-content: center;
-  bottom: -16px;
+  bottom: -17px;
+  left: 4px;
 }
 
 #pet-sleep-ign {
