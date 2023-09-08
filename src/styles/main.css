@@ -28,8 +28,8 @@ body {
   --pet-y-offset: 0px;
 
   --ios-scrollbar-url: url('../../public/images/ui/button/scroll/bar2.png');
-  --pet-links-scrollbar-url: url('../../public/images/ui/button/scroll/bar-1.png');
-  --item-links-scrollbar-url: url('../../public/images/ui/button/scroll/bar.png');
+  --pet-links-scrollbar-url: url('../../public/images/ui/button/scroll/bar2.png');
+  --item-links-scrollbar-url: url('../../public/images/ui/button/scroll/bar3.png');
 }
 
 html {
