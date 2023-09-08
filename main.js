@@ -190,7 +190,7 @@
         , t = document.getElementById("down-button")
         , n = document.getElementById("fame")
         , i = await async function() {
-          return (await fetch(`https://api.risorins.com/${o.query}/fame`, {
+          return (await fetch(`https://api.lannymon.com/${o.query}/fame`, {
               method: "PATCH"
           })).ok
       }();
@@ -314,7 +314,7 @@
   C(),
   async function() {
       document.getElementById("fame").textContent = await async function() {
-          const e = await fetch(`https://api.risorins.com/${o.query}/fame`);
+          const e = await fetch(`https://api.lannymon.com/${o.query}/fame`);
           return (await e.json()).fame
       }()
   }(),
