@@ -74,7 +74,7 @@
             title: "Github",
             image: "./public/images/ui/icons/links/github.png",
             requiredLevel: 0,
-            custom: "29px"
+            custom: "27px"
         }, {
             url: "https://www.linkedin.com/in/audy-vee-384479217/",
             title: "LinkedIn",
