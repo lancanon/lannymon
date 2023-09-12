@@ -16,8 +16,8 @@ body {
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
 
-  --character-height: 77px;
-  --character-width: 58px;
+  --character-height: 76px;
+  --character-width: 45px;
   --character-x-offset: 0px;
   --character-y-offset: 0px;
   --character-platform-y-offset: 13px;
@@ -178,8 +178,8 @@ button:hover {
 #character-preview {
   height: var(--character-height);
   width: var(--character-width);
-  top: calc(54px - var(--character-y-offset));
-  left: calc(23px + var(--character-x-offset));
+  top: calc(56px - var(--character-y-offset));
+  left: calc(28px + var(--character-x-offset));
   background-image: url("../../public/images/animations/idle.gif");
   background-repeat: no-repeat;
 }
@@ -573,8 +573,8 @@ button:hover {
 
 #character {
   background-image: url("../../public/images/animations/idle.gif");
-  height: 77px;
-  width: 58px;
+  height: 76px;
+  width: 45px;
   position: absolute;
   z-index: 5;
   bottom: calc(41px + var(--character-y-offset) + var(--character-platform-y-offset));
