@@ -35,7 +35,14 @@
             ign: "baws",
             type: "Tubby Tiger",
             "pet-level": 25,
-            closeness: 1201,
+            closeness: 1204,
+            fullness: 100
+        },
+        bunny: {
+            ign: "kiki",
+            type: "Tubby Tiger",
+            "pet-level": 25,
+            closeness: 1204,
             fullness: 100
         },
         links: [{
@@ -303,8 +310,14 @@
           , i = document.getElementById(t);
         i && (i.textContent = s.pet[e])
     }
+    for (const e in s.bunny) {
+        const t = "ign" === e ? "bunny-ign" : e
+          , i = document.getElementById(t);
+        i && (i.textContent = s.bunny[e])
+    }
     document.getElementById("character-ign").textContent = s.player.ign,
     document.getElementById("pet-sleep-ign").textContent = s.pet.ign,
+    document.getElementById("bunny-sleep-ign").textContent = s.bunny.ign,
     k.textContent = s.player.fame,
     b.addEventListener("click", (function() {
         I ? F() : A()
