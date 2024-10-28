@@ -20,9 +20,9 @@
         },
         player: {
             ign: "lan",
-            level: "24",
+            level: "25",
             job: "software engineer",
-            fame: "72",
+            fame: "34",
             guild: "-",
             alliance: "-",
             married: !0
@@ -30,6 +30,8 @@
         buttons: {
             wishlist: "",
             party: "mailto::veeaudy1201@gmail.com",
+            family: "https://discord.gg/rxZR48jDtP"
+
         },
         pet: {
             ign: "baws",
@@ -67,9 +69,9 @@
             requiredLevel: 0,
             custom: "30px"
         }, {
-            url: "https://www.tiktok.com/@lannymon",
-            title: "Tiktok",
-            image: "./public/images/ui/icons/links/tiktok.png",
+            url: "https://bsky.app/profile/lannymon.bsky.social",
+            title: "Bluesky",
+            image: "./public/images/ui/icons/links/bluesky.png",
             requiredLevel: 0
         }, {
             url: "https://open.spotify.com/user/baestatlon?si=d142f31e2b874217",
@@ -408,6 +410,6 @@
         document.hidden || a.reset()
     }
     )),
-    console.log("%ctwitter @nb_div", "font: 26px sans-serif; font-weight:bold; color: #77DD77; -webkit-text-stroke:0.01px black;")
+    console.log("%ctwitter @lannymon_", "font: 26px sans-serif; font-weight:bold; color: #77DD77; -webkit-text-stroke:0.01px black;")
 }
 )();
